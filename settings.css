@@ -1,0 +1,10 @@
+body{
+    display: flex;
+    justify-content:center;
+   
+}
+
+.music{
+    display: flex;
+    flex-direction: column;
+}
