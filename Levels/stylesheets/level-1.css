@@ -3,6 +3,7 @@ body{
     justify-content: center;
     flex-direction: column;
     gap: 18px;
+    background-color: blue;
 
 }
 
@@ -13,6 +14,7 @@ body{
     padding: 20px;
     margin: 30px;
     width: 300px;
+    background-color: rgb(29, 72, 158);
 }
 
 .button-container{
@@ -25,7 +27,7 @@ button{
     margin: 7px;
     border-radius: 12px;
     font-size: 20px;
-    
+    transition: 0.2s;
 
 }
 
@@ -33,4 +35,11 @@ label{
     display: flex;
     justify-content: center;
     font-size: 30px;
+    color: wheat;
+    font-style: oblique;
+}
+
+button:hover{
+    font-size: 18px;
+
 }
