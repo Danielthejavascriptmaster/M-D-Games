@@ -2,7 +2,7 @@ const continue_button = document.getElementById("continue_button");
 const response_label = document.getElementById("response_label");
 
 const retrieved_data = JSON.parse(localStorage.getItem("user"));
-const username = user.username;
+const username = retrieved_data.username;
 
 window.alert("Level 1 was supposed to be easy");
 window.alert(`Goodluck ${username}`);
