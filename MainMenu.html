@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main-menu</title>
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="main_menu_stylesheet.css">
 </head>
 <body>
     <style>
         .menu_spacing{
+            height: 10px;
+        }
+        .version_gap{
             height: 10px;
         }
     </style>
@@ -18,10 +21,19 @@
         <label class="text" id="credit_label">M&D Games</label>
 
         <div class="button-container">
-            <button>Start</button>
-            <button>Settings</button>
-            <button>Level</button>
+            <a href="">
+                <button>Start</button>
+            </a>
+            <a href="">
+                <button>Settings</button>
+            </a>
+            <a href="">
+                <button>Levels</button>
+            </a>
         </div>
-    </div>
+
+        <div class="version_gap"></div>
+            <a href="/Extra/version_log.html" id="version_label">Version: BETA</a>
+        </div>
 </body>
 </html>
