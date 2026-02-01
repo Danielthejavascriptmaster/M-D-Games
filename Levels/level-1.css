@@ -2,9 +2,20 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    gap: 14px;
 }
 
 .button-container{
-   
+    margin: 6px;
+    display: flex;
+    justify-content: center;
 }
 
+button{
+    margin: 10px;
+}
+
+label{
+    display: flex;
+    justify-content: center;
+}
