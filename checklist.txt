@@ -1,1 +1,17 @@
 this weeks work:
+
+
+EXAMPLE:
+Dave:
+- Finish styling || X 
+                        X marks for completion 
+
+
+Mikael:
+- Finish level 3
+- Coin reward system for all levels
+- Add coin viewing system in every level 
+
+Daniel:
+- Finish styling lvl 2 & lvl 3
+- Finish settings
