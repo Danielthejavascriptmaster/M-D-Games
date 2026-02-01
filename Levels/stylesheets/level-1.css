@@ -3,7 +3,7 @@ body{
     justify-content: center;
     flex-direction: column;
     gap: 18px;
-    background-color: blue;
+    background-color:#529bab;
 
 }
 
@@ -14,7 +14,7 @@ body{
     padding: 20px;
     margin: 30px;
     width: 300px;
-    background-color: rgb(29, 72, 158);
+    background-color: rgb(77, 155, 198);
 }
 
 .button-container{
@@ -41,5 +41,6 @@ label{
 
 button:hover{
     font-size: 18px;
+    background-color: rgb(199, 199, 199);
 
 }
