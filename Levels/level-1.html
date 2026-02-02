@@ -8,7 +8,7 @@
 </head>
 <body>
     <label>Click the right button!</label>
-
+    <!-- NO CHEATING -->
     <style>
         .centering{
             display: flex;
@@ -28,8 +28,8 @@
             <button>Click me!</button>
         </div>
         <div class="button-container">
-            <a href="level-2-pear.html">
-                <button>Click me!</button>
+            <a href="./level-2-pear.html">
+                <button id="correct_btn">Click me!</button>
             </a>
             <button>Click me!</button>
             <button>Click me!</button>
@@ -37,12 +37,9 @@
     </div>
     </div>
 
-    <script>
-        //let retrieved_data = JSON.parse(localStorage.getItem("user"));
-        //let coins = retrieved_data.coins;
-        //coins += 1;
+    <!--COIN LABEL-->
+    <label id="coin_label">COIN LABEL</label>
 
-        //localStorage.setItem(retrieved_data.coins = coins)
-    </script>
+    <script type="module" src="/Levels/script/level1.script.js"></script>
 </body>
 </html>

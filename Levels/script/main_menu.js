@@ -4,7 +4,8 @@ let user_data = {
     "username": username,
     "coins": 0,
     "level": 0,
-    "XP": 0
+    "XP": 0,
+
 } 
 localStorage.setItem("user", JSON.stringify(user_data));
 

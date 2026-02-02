@@ -9,9 +9,14 @@ Dave:
 
 Mikael:
 - Finish level 3
-- Coin reward system for all levels
-- Add coin viewing system in every level 
+- Coin reward system for all levels      X
+- Add coin viewing system in every level X
 
 Daniel:
 - Finish styling lvl 2 & lvl 3
 - Finish settings
+
+
+Note (from Mikael): I added coin labels on every level, could you style them? (Feburary 1st, 5:44)
+Note (from Mikael): Javascript is a nigger (Feburary 1st, 6:00)
+Note (from Mikael): IM the king of the shi like (i figured it out) (Feburary 1st, 6:23)
