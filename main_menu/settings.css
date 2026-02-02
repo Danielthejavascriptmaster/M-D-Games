@@ -46,14 +46,3 @@ body{
    
 }
 
-background: rgba(255, 255, 255, 0.2); /* Transparent white overlay */
-    backdrop-filter: blur(10px);          /* Blur the background behind */
-    -webkit-backdrop-filter: blur(10px);  /* Safari support */
-    border-radius: 15px;
-    padding: 30px;
-    color: #fff;
-    font-size: 1.5rem;
-    max-width: 400px;
-    text-align: center;
-    border: 1px solid rgba(255, 255, 255, 0.3); /* Optional frosted border */
-  }
