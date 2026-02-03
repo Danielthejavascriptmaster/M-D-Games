@@ -1,8 +1,8 @@
-export function addCoin(reward_amount, level){
-    let retrieved_data = JSON.parse(localStorage.getItem("user"));
-    retrieved_data.coins += reward_amount
+export function addCoin(_reward_amount){
+    let data = JSON.parse(localStorage.getItem("user"));
+    data.coins += _reward_amount
     
-    localStorage.setItem("user", JSON.stringify(retrieved_data))
-    
-    console.log(`COIN AMOUNT: ${retrieved_data.coins}`);
+    localStorage.setItem("user", JSON.stringify(data.coins));
 }
+let data = JSON.parse(localStorage.getItem("user"));
+export let user_coins = data.coins;
