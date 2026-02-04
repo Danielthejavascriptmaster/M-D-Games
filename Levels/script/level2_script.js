@@ -19,7 +19,7 @@ next_level_btn.onclick = () => {
     let verify_result = checkLevelCoin("lvl2")
     console.log(verify_result)
     if(verify_result == "collected"){
-        window.alert("coins would be added")
+        addCoin(2)
     }else{
         window.alert("coins have already been collected (greedy ahh)")
     }
