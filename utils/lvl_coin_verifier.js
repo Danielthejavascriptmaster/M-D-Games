@@ -1,14 +1,14 @@
 
 export function checkLevelCoin(_level){
     let data = JSON.parse(localStorage.getItem("user"));
-    let level_data = data[_level]
-
+    console.log(`data[_level] ${data[_level]} 1`)
     //if not collected
-    if (level_data == false){
-        let new_level_data = true; //set to true (set to collected)
+    if (data[_level] == false){
+        data[_level] = true
         localStorage.setItem("user", JSON.stringify(data)); //save
-        return  false// signal that coin has been collected 
-    } else if (level_data == true){ //if it was collected
-        return true //return that the coin was collected
+        console.log(`data[_level] ${data[_level]} 2`)
+        return "collected"// signal that coin has been collected 
+    } else if (data[_level] == true){ //if it was collected
+        return "already_collected" //return that the coin was collected
     };
 }

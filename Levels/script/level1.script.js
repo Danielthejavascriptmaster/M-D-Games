@@ -13,7 +13,8 @@ correct_btn.onclick = () => {
     console.log("button has been clicked on level 1")
     let verify_result = checkLevelCoin("lvl1")
     console.log(verify_result)
-    if(verify_result == false){
+
+    if(verify_result == "collected"){
         addCoin(2)
         window.alert("coins would be added")
     }else{
