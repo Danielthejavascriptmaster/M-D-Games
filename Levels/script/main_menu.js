@@ -1,17 +1,17 @@
-const username = window.prompt("Enter your username: ");
+import { add_user } from "../../utils/add_user.js";
+let developer_debug_button = document.getElementById("credit_label");
 
-let user_data = {
-    "username": username,
-    "coins": 0,
+if(!localStorage.getItem("hasRun")){ //if false/if it hasnt ran yet
+    console.log(`Falsely ${localStorage}`)
+    console.log("hasRun has been detected as falsey")
+    localStorage.setItem("hasRun", "yes");
 
-    //LEVELS COIN COLLECTOR
-    // false means not collected
-    "lvl1": false,
-    "lvl2": false,
-    "lvl3": false,
+    let username = window.prompt("Set Your Username:");
+    add_user(username)
+}else if(localStorage){
+}
 
-} 
-localStorage.setItem("user", JSON.stringify(user_data));
-let whole_data = JSON.parse(localStorage.getItem("user"));
-let data_username = whole_data.username;
-console.log(data_username);
+developer_debug_button.onclick = () => {
+    localStorage.removeItem("hasRun")
+    window.alert("This is a developer button meant for debugging, It does not affect gameplay")
+}
