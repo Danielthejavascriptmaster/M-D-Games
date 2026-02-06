@@ -17,6 +17,5 @@ correct_btn.onclick = () => {
     if(verify_result == "collected"){
         addCoin(1)
     }else{
-        window.alert("coins have already been collected (greedy ahh)")
     }
 };

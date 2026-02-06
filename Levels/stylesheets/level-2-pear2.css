@@ -1,0 +1,6 @@
+body{
+    background: darkcyan; /*Background color can be anything*/
+}
+#code_label{
+    color: darkcyan;/*make sure this mathes background color*/
+}

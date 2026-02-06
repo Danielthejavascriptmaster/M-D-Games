@@ -21,6 +21,5 @@ next_level_btn.onclick = () => {
     if(verify_result == "collected"){
         addCoin(2)
     }else{
-        window.alert("coins have already been collected (greedy ahh)")
     }
 };

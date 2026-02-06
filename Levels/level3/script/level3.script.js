@@ -1,0 +1,36 @@
+import { addCoin } from "../../../utils/add_coin.js";
+console.log(localStorage)
+const coin_label = document.getElementById("coin_label");
+
+let checkbox_1 = document.getElementById("CB1"); //on
+let checkbox_2 = document.getElementById("CB2"); //off
+let checkbox_3 = document.getElementById("CB3"); //off
+let checkbox_4 = document.getElementById("CB4"); //on
+let checkbox_5 = document.getElementById("CB5"); //on
+const submit_btn = document.getElementById("submit_button");
+//All check boxes
+
+
+//sequence: 1 0 0 1 1
+
+submit_btn.onclick = () => {
+    if (
+        checkbox_1.checked == true &&
+        checkbox_2.checked == false && 
+        checkbox_3.checked == false && 
+        checkbox_4.checked == true &&
+        checkbox_5.checked == true
+    )
+    {
+        window.alert("Correct sequence")
+        window.location.replace('/Levels/level3/level-3-part2.html')
+    }
+    else{
+        window.alert("incorrect sequence");
+    }
+}
+
+
+let data = JSON.parse(localStorage.getItem("user"))
+coin_label.innerHTML = `coins: ${data.coins}`
+
