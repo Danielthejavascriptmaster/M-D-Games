@@ -1,4 +1,6 @@
 import { add_user } from "../../utils/add_user.js";
+import { check_shop } from "../../utils/check_shop_perm.js"
+
 let developer_debug_button = document.getElementById("credit_label");
 const shop_btn = document.getElementById("shop_btn");
 
@@ -15,11 +17,5 @@ developer_debug_button.onclick = () => {
 };
 
 shop_btn.onclick = () => {
-    let data = JSON.parse(localStorage.getItem("user")) || {};
-    console.log(data)
-    if(data.shop_unlocked == true){
-        window.location.replace("/store/pages/main_store.html")
-    }else{
-        window.alert("You havent unlocked this yet")
-    };
+    check_shop()
 };

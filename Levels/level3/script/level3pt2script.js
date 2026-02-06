@@ -1,10 +1,11 @@
 let data = JSON.parse(localStorage.getItem("user"));
+console.log(localStorage)
 
 const continue_btn = document.getElementById("continue_btn");
 const view_btn = document.getElementById("view_btn");
 
-data.shop_unlocked = true
-localStorage.setItem("user", data)
+data.shop_unlocked = true;
+localStorage.setItem("user", JSON.stringify(data));
 
 window.alert("You made it to level 3");
 window.alert("I didn't expect you to make it this far");
