@@ -9,6 +9,8 @@ export function add_user(username){
     "lvl1": false,
     "lvl2": false,
     "lvl3": false,
+
+    "inventory": []
 } 
     localStorage.setItem("user", JSON.stringify(user_data)); // saved item
 }
