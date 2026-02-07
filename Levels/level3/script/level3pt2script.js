@@ -14,7 +14,7 @@ window.alert("Try spending them in the shop");
 window.alert("I gave you access to the shop, click the view button to return to the main page");
 
 continue_btn.onclick = () => {
-    window.alert("Continuing");
+    window.location.replace("/Levels/level4/")
 }
 view_btn.onclick = () => {
     window.location.replace('/main_menu/html/MainMenu.html');
