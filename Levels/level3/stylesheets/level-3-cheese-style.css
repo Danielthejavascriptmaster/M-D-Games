@@ -1,0 +1,69 @@
+body{
+   background: #450243;
+background: linear-gradient(90deg, rgba(69, 2, 67, 1) 0%, rgba(82, 2, 125, 1) 49%, rgba(255, 0, 102, 1) 95%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.text{
+    font-size: 110px;
+}
+
+#coin_label{
+    position: fixed; 
+    top: 10px;       
+    left: 10px;      
+    background-color: #513aa6;
+    color: rgb(0, 0, 0);
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    outline-style: solid;
+    font-weight: bold;
+}
+
+#coin{
+    width: 50px;
+    height: 50px;
+    border-radius: 300px;;
+    position: fixed;
+    top: 10px;      
+    left: 13px;     
+    padding: 30px 8px;
+
+}
+
+.boxes{
+    background-color: #412d8a;
+    margin: 100px;
+    border-radius: 20px;
+}
+
+input[type="checkbox"]{
+    transform: scale(2.8);
+    margin: 20px;
+}
+
+.submit_button {
+    border-radius: 20px;
+    background: #592881;
+    background-size: 400%;
+    color: #000000;
+    font-size: 100px;
+    transition: 0.6s;
+}
+
+.submit_button:hover{
+    color: rgb(255, 255, 255);
+    background-color: #302958;
+
+}
+
+.submit_button:active{
+    scale: 0.9;
+}
