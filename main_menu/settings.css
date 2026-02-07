@@ -4,26 +4,26 @@ body{
 }
 
 .music{
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    margin-left: 540px;
-    background: rgba(255, 255, 255, 0.2); 
-    backdrop-filter: blur(10px);         
-    -webkit-backdrop-filter: blur(10px);  
-    border-radius: 15px;
-    padding: 30px;
-    color: #fff;
-    max-width: 400px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    transition: 0.5s;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-left: 540px;
+  background: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(10px);         
+  -webkit-backdrop-filter: blur(10px);  
+  border-radius: 15px;
+  padding: 30px;
+  color: #fff;
+  max-width: 400px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: 0.5s;
   }
 
 .music:hover{
-     background: rgba(94, 93, 93, 0.2); 
-    backdrop-filter: blur(10px);         
-    -webkit-backdrop-filter: blur(10px);  
-    border-radius: 25px;
+  background: rgba(94, 93, 93, 0.2); 
+  backdrop-filter: blur(10px);         
+  -webkit-backdrop-filter: blur(10px);  
+  border-radius: 25px;
 }
 
 
@@ -39,11 +39,11 @@ body{
 }
 
 #musiclabel{
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   font-size: 30px;
-   margin-top: 30px;
-   
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 30px;
+  margin-top: 30px;
+  
 }
 
