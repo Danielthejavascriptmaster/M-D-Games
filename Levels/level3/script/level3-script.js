@@ -8,7 +8,7 @@ let checkbox_2 = document.getElementById("CB2"); //off
 let checkbox_3 = document.getElementById("CB3"); //off
 let checkbox_4 = document.getElementById("CB4"); //on
 let checkbox_5 = document.getElementById("CB5"); //on
-const submit_btn = document.getElementById("submit_button");
+let submit_btn = document.querySelector(".submit_button");
 //All check boxes
 
 
