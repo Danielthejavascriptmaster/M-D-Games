@@ -19,7 +19,7 @@ next_level_btn.onclick = () => {
     let verify_result = checkLevelCoin("lvl2")
     console.log(verify_result)
     if(verify_result == "collected"){
-        addCoin(2)
+        addCoin(8)
     }else{
     }
 };

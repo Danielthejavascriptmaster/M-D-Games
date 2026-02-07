@@ -23,7 +23,7 @@ submit_btn.onclick = () => {
         checkbox_5.checked == true
     )
     {
-        addCoin(2)
+        addCoin(12)
         window.location.replace('/Levels/level3/level-3-part2.html')
     }
     else{

@@ -15,7 +15,7 @@ correct_btn.onclick = () => {
     console.log(verify_result)
 
     if(verify_result == "collected"){
-        addCoin(1)
+        addCoin(5)
     }else{
     }
 };
