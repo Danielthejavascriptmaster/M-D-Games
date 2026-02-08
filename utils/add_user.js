@@ -3,6 +3,7 @@ export function add_user(username){
     "storage_username": username,
     "coins": 0, 
     "shop_unlocked": false,
+    "stamina": 100,
 
     //LEVELS COIN COLLECTOR
     // false means not collected
@@ -10,7 +11,15 @@ export function add_user(username){
     "lvl2": false,
     "lvl3": false,
 
-    "inventory": []
+    "inventory": [],
+
+    "business": {
+        "name": "",
+        "income_low": 0,
+        "income_high": 0,
+        "income_bar": 0,
+        "income_bar_raise": 0
+    }
 } 
     localStorage.setItem("user", JSON.stringify(user_data)); // saved item
 }

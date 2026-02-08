@@ -30,10 +30,10 @@ submit_btn.onclick = () => {
 
         if(verify_result == "collected"){
             addCoin(5);
-            window.location.replace("/Levels/level4/level-4-brick.html");
+            window.location.replace("/Levels/level3/level-3-part2.html")
         }else
         {
-            window.location.replace("/Levels/level4/level-4-brick.html");
+            window.location.replace("/Levels/level3/level-3-part2.html");
 
         }
     }
