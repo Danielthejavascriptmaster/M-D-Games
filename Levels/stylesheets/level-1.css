@@ -3,7 +3,8 @@ body{
     justify-content: center;
     flex-direction: column;
     gap: 18px;
-    background-color: rgb(36, 203, 203);
+    background: url(/assets/wooden\ jungle\ pixelated\ background\ 5.webp)no-repeat;
+    background-size: cover;
 
 }
 
@@ -13,20 +14,27 @@ body{
     border-radius: 10px;
     padding: 20px;
     margin: 30px;
-    width: 300px;
-    background-color: rgb(77, 155, 198);
+    width: 320px;
+     background-color: rgba(132, 126, 119, 0.1);
+
+    
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(20px);
+
+    
 }
 
 .button-container{
-    margin: 10px;
+    margin: 15px;
     display: flex;
     justify-content: center;
+    gap: 10px;
 }
 
 button{
     margin: 7px;
     border-radius: 12px;
-    font-size: 20px;
+    font-size: 22px;
     transition: 0.2s;
 
 }
@@ -34,13 +42,41 @@ button{
 label{
     display: flex;
     justify-content: center;
-    font-size: 30px;
-    color: wheat;
-    font-style: oblique;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 5px 5px black;
+    
 }
 
 button:hover{
     font-size: 18px;
     background-color: rgb(199, 199, 199);
 
+}
+
+#coin_label {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: #ffffff;
+    color: black;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    z-index: 1000;
+}
+
+
+
+#coin {
+    position: fixed;
+    top: 36px;
+    left: 10px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    z-index: 1000;
 }
