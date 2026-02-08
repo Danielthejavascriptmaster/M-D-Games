@@ -23,8 +23,8 @@ let coins = data.coins;
 regular_water_buy_btn.onclick = () => {
     if (coins >= water_price){
         coins -= water_price;
-        add_item("water")
         localStorage.setItem("user", JSON.stringify(data));
+        add_item("water")
         window.alert(purchase_text);
     }else{
         window.alert(brokie_text)
@@ -34,56 +34,52 @@ regular_water_buy_btn.onclick = () => {
 green_card_buy_btn.onclick = () => {
     if (coins >= green_card_price){
         coins -= green_card_price;
-        add_item("green card")
         localStorage.setItem("user", JSON.stringify(data));
+        add_item("green card")
         window.alert(purchase_text);
     }else{
         window.alert(brokie_text)
     }   
 }
 
-
 wires_buy_btn.onclick = () => {
     if (coins >= wires_price){
         coins -= wires_price;
+        localStorage.setItem("user", JSON.stringify(data))
         add_item("wires")
-        localStorage.setItem("user", JSON.stringify(data));
         window.alert(purchase_text);
     }else{
         window.alert(brokie_text)
     }
 }
-
 
 building_permit_buy_btn.onclick = () => {
     if (coins >= building_permit_price){
         coins -= building_permit_price;
+        localStorage.setItem("user", JSON.stringify(data))
         add_item("building permit")
-        localStorage.setItem("user", JSON.stringify(data));
         window.alert(purchase_text);
     }else{
         window.alert(brokie_text)
     }
 }
-
 
 iron_bar_buy_btn.onclick = () => {
     if (coins >= iron_bar_price){
         coins -= iron_bar_price;
+        localStorage.setItem("user", JSON.stringify(data))
         add_item("iron bar")
-        localStorage.setItem("user", JSON.stringify(data));
         window.alert(purchase_text);
     }else{
         window.alert(brokie_text)
     }
 }
 
-
 chair_buy_btn.onclick = () => {
     if (coins >= chair_price){
         coins -= chair_price;
+        localStorage.setItem("user", JSON.stringify(data))
         add_item("chair")
-        localStorage.setItem("user", JSON.stringify(data));
         window.alert(purchase_text);
     }else{
         window.alert(brokie_text)
