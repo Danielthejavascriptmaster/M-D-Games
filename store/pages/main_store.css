@@ -96,3 +96,40 @@ body{
     background-size: cover;
 }
 
+#coin_label {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: #ffffff;
+    color: black;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    z-index: 1000;
+}
+
+
+#coin {
+    position: fixed;
+    top: 36px;
+    left: 10px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    z-index: 1000;
+}
+
+#backBtn{
+    position: fixed;
+    top: 26px;
+    left: 1440px;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+#backBtn:hover{
+    scale: 0.9;
+}

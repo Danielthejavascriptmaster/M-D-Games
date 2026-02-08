@@ -3,6 +3,7 @@ body{
     background-size: cover; 
 }
 
+
 .music{
   justify-content: center;
   display: flex;
@@ -17,7 +18,8 @@ body{
   max-width: 400px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   transition: 0.5s;
-  }
+}
+
 
 .music:hover{
   background: rgba(94, 93, 93, 0.2); 
@@ -25,7 +27,6 @@ body{
   -webkit-backdrop-filter: blur(10px);  
   border-radius: 25px;
 }
-
 
 
 .mainlabel{
@@ -38,6 +39,7 @@ body{
   outline-color: black;
 }
 
+
 #musiclabel{
   display: flex;
   flex-direction: row;
@@ -46,4 +48,5 @@ body{
   margin-top: 30px;
   
 }
+
 
