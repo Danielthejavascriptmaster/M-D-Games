@@ -1,4 +1,6 @@
 import { addCoin } from "../../../utils/add_coin.js";
+import { checkLevelCoin } from "../../../utils/lvl_coin_verifier.js";
+
 console.log(localStorage)
 const coin_label = document.getElementById("coin_label");
 
@@ -23,8 +25,14 @@ submit_btn.onclick = () => {
         checkbox_5.checked == true
     )
     {
-        addCoin(12)
-        window.location.replace('/Levels/level3/level-3-part2.html')
+        console.log("button has been clicked on level 1")
+        let verify_result = checkLevelCoin("lvl1")
+        console.log(verify_result)
+
+        if(verify_result == "collected"){
+            addCoin(5)
+    }else{
+    }
     }
     else{
         window.alert("incorrect sequence");
