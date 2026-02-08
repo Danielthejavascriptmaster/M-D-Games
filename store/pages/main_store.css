@@ -19,8 +19,6 @@ label{
     margin-left: 140px;
     padding-right: 60px;
     gap: 30px;
-    
-    
 }
 
 .panels{
@@ -34,8 +32,7 @@ label{
     box-shadow: 6px 7px 5px rgb(0, 0, 0);
     width: 200px;
     height: 330px;
-    margin-bottom: 20px;
-   
+    margin-bottom: 30px;
 }
 
 
@@ -46,8 +43,13 @@ label{
     justify-content: center;
     margin-left: 60px;
     border-radius:10px;
+    font-size: 16px;
+    transition: 0.6s;
 }
 
+.purchase_Btn:hover{
+    scale: 0.9;
+}
 
 
 p{
@@ -57,19 +59,28 @@ p{
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 
+
+
 #wires{
     margin-left: 70px;
 }
 
+
+
+#chair{
+    margin-left: 70px;
+}
+
+
+
 #ironbar{
-    margin-left: 50px;
+    margin-left: 55px;
 }
 
 .description{
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 1px black;
     margin-left: 30px;
-    
 }
 
 
