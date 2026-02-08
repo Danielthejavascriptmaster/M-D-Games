@@ -25,14 +25,17 @@ submit_btn.onclick = () => {
         checkbox_5.checked == true
     )
     {
-        console.log("button has been clicked on level 1")
-        let verify_result = checkLevelCoin("lvl1")
+        let verify_result = checkLevelCoin("lvl3")
         console.log(verify_result)
 
         if(verify_result == "collected"){
-            addCoin(5)
-    }else{
-    }
+            addCoin(5);
+            window.location.replace("/Levels/level4/level-4-brick.html");
+        }else
+        {
+            window.location.replace("/Levels/level4/level-4-brick.html");
+
+        }
     }
     else{
         window.alert("incorrect sequence");
