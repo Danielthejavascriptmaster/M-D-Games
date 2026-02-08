@@ -1,20 +1,56 @@
 body{
     align-items: center;
+    background: url(/assets/pixelated\ mountain\ background.png) no-repeat;
+    background-size: cover;
+    height: 21cm;
 }
 
 
 .wrapper{
-    display:flex;
+    display: flex;
     align-items: center;
     max-width: 500px;
     max-height: 200px;
+    margin-top: 200px;
+    padding: 20px;
     margin-left: 500px;
-    padding: 50px;
-    background-color: rgb( 70, 55, 40 , 0.5);
-    
 
+   
+    background-color: rgba(70, 55, 40, 0.2);
+
+    
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+
+   
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 }
 
+#main-label{
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#next_level{
+    color: rgb(255, 255, 255);
+    font-size:20px;
+    margin: 10px;
+}
+
+p{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+    color: rgb(255, 255, 255);
+    text-shadow:1px 1px 1px black;
+}
 
 
 
@@ -27,7 +63,7 @@ body{
     position: fixed;
     top: 10px;
     left: 10px;
-    background-color: #d0d30c;
+    background-color: #ffffff;
     color: black;
     padding: 6px 12px;
     border-radius: 4px;
