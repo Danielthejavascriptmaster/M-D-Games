@@ -1,6 +1,6 @@
 body{
-   background: #450243;
-background: linear-gradient(90deg, rgba(69, 2, 67, 1) 0%, rgba(82, 2, 125, 1) 49%, rgba(255, 0, 102, 1) 95%);
+    background: url(/assets/chill\ midnight\ pixel\ background.webp) no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,7 +18,7 @@ background: linear-gradient(90deg, rgba(69, 2, 67, 1) 0%, rgba(82, 2, 125, 1) 49
     position: fixed; 
     top: 10px;       
     left: 10px;      
-    background-color: #513aa6;
+    background-color: #3f2d80;
     color: rgb(0, 0, 0);
     padding: 6px 12px;
     border-radius: 4px;
@@ -39,7 +39,6 @@ background: linear-gradient(90deg, rgba(69, 2, 67, 1) 0%, rgba(82, 2, 125, 1) 49
 }
 
 .boxes{
-    background-color: #412d8a;
     margin: 100px;
     border-radius: 20px;
 }
@@ -50,20 +49,22 @@ input[type="checkbox"]{
 }
 
 .submit_button {
-    border-radius: 20px;
-    background: #592881;
-    background-size: 400%;
-    color: #000000;
-    font-size: 100px;
-    transition: 0.6s;
+    font-size: 50px;
+    border-radius:20px;
+    transition: 0.5s;
+
 }
 
 .submit_button:hover{
-    color: rgb(255, 255, 255);
-    background-color: #302958;
-
+    background: url(/assets/infinite\ space\ 1.webp) no-repeat;
+    background-size: cover;
+    color: white;
 }
 
 .submit_button:active{
     scale: 0.9;
+}
+
+#level3_label{
+    color: black;
 }
