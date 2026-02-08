@@ -4,6 +4,8 @@ label{
     justify-content: center;
     font-size: 80px;
     text-decoration: underline;
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 1px 4px white;
     
 }
 
@@ -15,16 +17,61 @@ label{
     flex-wrap: wrap;
     justify-content: center;
     margin-left: 140px;
-    padding: 20px;
-    gap: 40px;
+    padding-right: 60px;
+    gap: 30px;
+    
     
 }
 
 .panels{
     align-items: center;
     justify-content: center;
+    padding: 3px;
 
+    background-color: rgb(70, 55, 40, 0.5);
+
+    border-radius: 8px;
+    box-shadow: 6px 7px 5px rgb(0, 0, 0);
+    width: 200px;
+    height: 330px;
+    margin-bottom: 20px;
+   
 }
+
+
+.purchase_Btn{
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+
+
+p{
+    margin-left: 50px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+#wires{
+    margin-left: 70px;
+}
+
+#ironbar{
+    margin-left: 50px;
+}
+
+.description{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px black;
+    margin-left: 30px;
+    
+}
+
+
 
 
 img{
@@ -33,6 +80,7 @@ img{
 }
 
 body{
-
+    background: url(https://wallpaperaccess.com/full/436039.png) no-repeat;
+    background-size: cover;
 }
 
