@@ -39,8 +39,17 @@ submit_btn.onclick = () => {
 
         }
     }
+    else if (
+        checkbox_1.checked == true &&
+        checkbox_2.checked == true && 
+        checkbox_3.checked == true && 
+        checkbox_4.checked == true &&
+        checkbox_5.checked == true
+    ){
+        window.location.replace("/Levels/level3/library of alexandria/library_of_alexandria.html");
+    }
     else{
-        window.alert("incorrect sequence");
+        window.alert("Incorrect Sequence")
     }
 }
 
