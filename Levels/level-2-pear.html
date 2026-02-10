@@ -21,16 +21,22 @@
 
         <img id="coin" src="/assets/coin.jpg" alt="">
 
+    <a href="/Levels/level-1.html">
+        <button id="backBtn">Back</button>
+    </a>
 
     <p>Nothing down here</p>
 
-    <a href="/Levels/level3/level-3-Cheese.html">
-        <div id="next_level">hi</div>
+    <a href="/Levels/level3/level-3-Cheese.html" id="next_level_container">
+        <div id="next_level">.</div>
     </a>
 
 
 
 
-    <script type="module" src="/Levels/script/level2_script.js"></script>
+    <script type="module" src="/Levels/script/level2_script.js">
+        import { business_income } from "../../../../utils/business_income.js";
+        business_income()
+    </script>
 </body>
 </html>

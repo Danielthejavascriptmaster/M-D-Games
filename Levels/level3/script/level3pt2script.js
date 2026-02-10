@@ -1,3 +1,6 @@
+import { business_income } from "../../../../utils/business_income.js";
+business_income()
+
 let data = JSON.parse(localStorage.getItem("user"));
 console.log(localStorage)
 

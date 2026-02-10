@@ -84,7 +84,7 @@ p{
     z-index: 1000;
 }
 
-
-
-
-
+#next_level_container #next_level{
+    font-size: 50px;
+    text-decoration: none !important
+}

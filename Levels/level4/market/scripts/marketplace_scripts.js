@@ -1,6 +1,6 @@
 import { addCoin } from "../../../../utils/add_coin.js";
 import { business_income } from "../../../../utils/business_income.js";
-
+business_income()
 const info_button = document.getElementById("info_button");
 const buy_btn_slot_1 = document.getElementById("buy_btn_slot_1");
 const buy_btn_slot_2 = document.getElementById("buy_btn_slot_2");
@@ -32,7 +32,7 @@ buy_btn_slot_1.onclick = () => {
             data.business.income_bar = 0;
 
             data.business.income_bar_raise_low = 10;
-            data.business.income_bar_raise_high = 60;
+            data.business.income_bar_raise_high = 20;
 
             localStorage.setItem("user", JSON.stringify(data));
             window.alert(`${data.business.name} has been bought!`);
@@ -51,15 +51,15 @@ buy_btn_slot_2.onclick = () => {
         if(data.coins >= banana_plantation){
             data.coins -= banana_plantation;
             data.business.company_owned = true;
-            data.business.name = "Soda Factory";
+            data.business.name = "Banana Plantation";
             data.business.company_value = banana_plantation;
             data.business.income_low = 3;
             data.business.income_high = 10;
 
             data.business.income_bar = 0;
 
-            data.business.income_bar_raise_low = 25;
-            data.business.income_bar_raise_high = 75;
+            data.business.income_bar_raise_low = 10;
+            data.business.income_bar_raise_high = 40;
 
             localStorage.setItem("user", JSON.stringify(data));
             window.alert(`${data.business.name} has been bought!`);
@@ -79,13 +79,13 @@ buy_btn_slot_3.onclick = () => {
             data.business.company_owned = true;
             data.business.name = "Soda Factory";
             data.business.company_value = crypto_trading_firm;
-            data.business.income_low = 3;
-            data.business.income_high = 10;
+            data.business.income_low = 55;
+            data.business.income_high = 70;
 
             data.business.income_bar = 0;
 
-            data.business.income_bar_raise_low = 25;
-            data.business.income_bar_raise_high = 75;
+            data.business.income_bar_raise_low = 5;
+            data.business.income_bar_raise_high = 10;
 
             localStorage.setItem("user", JSON.stringify(data));
             window.alert(`${data.business.name} has been bought!`);
@@ -98,17 +98,9 @@ buy_btn_slot_3.onclick = () => {
     }
 }
 
-business_test.onclick = () => {
-    window.alert("working");
-    business_income();
-}
 info_button.onclick = () => {
     window.alert("You Can Buy A Business In The Marketplace To Gain More Income");
-    window.alert("Maintenence is needed sometimes you business might fail");
-}
-inf_money_btn.onclick = () => {
-    addCoin(1000);
-    console.log(data);
+    window.alert("Being a business owner is risky 😈");
 }
 
 sell_btn.onclick = () => {

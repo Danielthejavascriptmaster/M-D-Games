@@ -1,6 +1,7 @@
 import { add_item } from "../../../utils/add_item_.Js";
+import { business_income } from "../../../../utils/business_income.js";
 
-console.log("Working")
+business_income()
 const regular_water_buy_btn = document.getElementById("regular_water_buy_btn");
 const green_card_buy_btn = document.getElementById("green_card_buy_btn");
 const wires_buy_btn = document.getElementById("wires_buy_btn");

@@ -30,9 +30,13 @@
 
     <button id="info_button">Info</button>
     <button id="sell_btn">Sell</button>
-    <button id="inf_money_btn">inf money</button>
-    <button id="business_test">test</button>
 
-    <script type="module" src="scripts/marketplace_scripts.js"></script>
+    <a href="/Levels/level4/level-4-brick.html">
+        <button id="backBtn">Back</button>
+    </a>
+    <script type="module" src="scripts/marketplace_scripts.js">
+        import { business_income } from "../../../../utils/business_income.js";
+        business_income()
+    </script>
 </body>
 </html>

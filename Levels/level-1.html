@@ -50,7 +50,15 @@
 
     <!--COIN LABEL-->
     <img id="coin" src="/assets/coin.jpg" alt="">
-    <label id="coin_label">COIN LABEL</label>    
-    <script type="module" src="/Levels/script/level1.script.js"></script>
+    <label id="coin_label">COIN LABEL</label>   
+    
+    <a href="/main_menu/html/MainMenu.html">
+        <button id="backBtn">Back</button>
+    </a>
+
+    <script type="module" src="/Levels/script/level1.script.js">
+        import { business_income } from "../../../../utils/business_income.js";
+        business_income()
+    </script>
 </body>
 </html>

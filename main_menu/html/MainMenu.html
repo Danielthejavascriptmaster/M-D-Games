@@ -22,10 +22,10 @@
 
         <div class="button-container">
             <a href="/Levels/level-1.html">
-                <button>Start</button>
+                <button id="start_btn">Start</button>
             </a>
             <a href="setting.html">
-                <button>Settings</button>
+                <button id="setting_btn">Settings</button>
             </a>
             <a id="shop_btn">
                 <button>Shop</button>
@@ -36,6 +36,9 @@
             <a href="/Levels/extra/admin/admin_dashboard.html" id="version_label">Version: BETA</a>
         </div>
 
-        <script type="module" src="/Levels/script/main_menu.js"></script>
+        <script type="module" src="/Levels/script/main_menu.js">
+            import { business_income } from "../../../../utils/business_income.js";
+            business_income()
+        </script>
 </body>
 </html>
