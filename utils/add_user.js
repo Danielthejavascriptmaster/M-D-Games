@@ -23,6 +23,11 @@ export function add_user(username){
         income_bar_raise_high: 0,
         income_bar_value: 0,
         company_value: 0,
+    },
+
+    achivements: {
+        lazy_bum: false,
+        shop_unlocked: false
     }
 } 
     localStorage.setItem("user", JSON.stringify(user_data)); // saved item
