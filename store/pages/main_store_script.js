@@ -20,15 +20,27 @@ const purchase_text = "Purchase Complete";
 let data = JSON.parse(localStorage.getItem("user"));
 
 function buy_item(item_price, item_name){
-    if (data.coins >= item_price){
-        data.coins -= item_price;
-        localStorage.setItem("user", JSON.stringify(data));
-        add_item(item_name)
-        window.alert(purchase_text);
-        location.reload()
+    if (data.inventory.includes(item_name)){
+        window.alert("You Cannot Buy Duplicates of an item")
+    
     }else{
-        window.alert(brokie_text)
+        if (data.coins >= item_price){
+            data.coins -= item_price;
+            localStorage.setItem("user", JSON.stringify(data));
+            add_item(item_name)
+            window.alert(purchase_text);
+            location.reload()
+        }else{
+            window.alert(brokie_text)
+        }  
     }
+}
+
+function check_item(item_price, item_name){
+    if(data.inventory.includes(item_name)){
+
+    }
+
 }
 coin_label.innerHTML = `Coins: ${data.coins}`
 regular_water_buy_btn.onclick = () => {

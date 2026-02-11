@@ -8,13 +8,12 @@ let data = JSON.parse(localStorage.getItem("user"));
 check_inventory_btn.onclick = () => {
     inventory_label.innerHTML = `${data.inventory}`
 }
-check_inventory_btn.onclick = () => {
-    inventory_label.innerHTML = `${data.inventory}`
-}
 
 submit_btn.onclick = () => {
     const item_1 = document.getElementById("item_1").value;
     const item_2 = document.getElementById("item_2").value;
 
     craft_item(item_1, item_2);
+    window.location.reload()
+    inventory_label.innerHTML = `${data.inventory}`
 }
