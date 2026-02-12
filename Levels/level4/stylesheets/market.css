@@ -1,0 +1,62 @@
+body{
+    min-height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.product{
+    background-color: rgb(111, 111, 111);
+    border-radius: 10px;
+    padding: 30px;
+    position: relative;
+    width: 900px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+}
+
+#slot_1,
+#slot_2,
+#slot_3{
+    background: rgb(89, 80, 80);
+    padding: 20px;
+    border-radius: 15px;  
+    margin-bottom: 20px;
+    transition: transform 0.5s ease;
+}
+
+#slot_1:hover,
+#slot_2:hover,
+#slot_3:hover {
+transform: scale(0.95);
+box-shadow:  0 0 20px black;
+
+}
+
+.info{
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 14px;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+
+#price_label{
+    font-weight: bold;
+    color: gold;
+    margin-bottom: 10px;
+}
+
+#info_button{
+    background: #293829;
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+}
