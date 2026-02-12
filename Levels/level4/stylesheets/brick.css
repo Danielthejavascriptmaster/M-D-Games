@@ -1,4 +1,50 @@
-.wrapper{
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://i.pinimg.com/originals/52/9c/49/529c49e9164d33dd37bdc658d9a807f5.gif) no-repeat;
+    background-size: cover;
+}
+
+
+.container{
     display: flex;
     flex-direction: column;
+    width: 470px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    margin-top: 140px;
+    
 }
+
+
+.container button{
+    font-size: 60px;
+    width: 400px;
+    border-radius: 10px;
+    margin: 25px;
+    transition: 0.4s;
+    background-color: rgba(255, 255, 255, 0.501);
+
+    
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+
+   
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+#city{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    color: white;
+    text-shadow: 2px 3px 3px black;
+    
+}
+
+
