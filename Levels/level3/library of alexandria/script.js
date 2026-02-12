@@ -1,4 +1,4 @@
-import { business_income } from "../../../../utils/business_income.js";
+import { business_income, business_risk } from "../../../../utils/business_income.js";
 
 business_income()
 window.alert("Your a little late");

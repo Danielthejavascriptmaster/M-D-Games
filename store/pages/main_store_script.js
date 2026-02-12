@@ -1,5 +1,5 @@
 import { add_item } from "../../../utils/add_item_.Js";
-2
+
 const regular_water_buy_btn = document.getElementById("regular_water_buy_btn");
 const green_card_buy_btn = document.getElementById("green_card_buy_btn");
 const wires_buy_btn = document.getElementById("wires_buy_btn");
@@ -36,12 +36,6 @@ function buy_item(item_price, item_name){
     }
 }
 
-function check_item(item_price, item_name){
-    if(data.inventory.includes(item_name)){
-
-    }
-
-}
 coin_label.innerHTML = `Coins: ${data.coins}`
 regular_water_buy_btn.onclick = () => {
     buy_item(water_price, "water");

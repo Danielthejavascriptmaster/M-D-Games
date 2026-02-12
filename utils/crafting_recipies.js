@@ -1,5 +1,4 @@
 let total_recipies = 2;
-let array = [1, 2, 3, 4, 5]
 let crafting_recipies = [
     {
         ingredients: ["carbonated water", "sugar"],
@@ -8,6 +7,9 @@ let crafting_recipies = [
     {
         ingredients: ["wires", "water"],
         output: "Infinite coin generator"
+    },
+    {
+
     }
 ]
 

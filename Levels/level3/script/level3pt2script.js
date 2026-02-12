@@ -1,6 +1,6 @@
-import { business_income } from "../../../../utils/business_income.js";
+import { business_income, business_risk } from "../../../../utils/business_income.js";
 business_income()
-
+business_risk()
 let data = JSON.parse(localStorage.getItem("user"));
 console.log(localStorage)
 

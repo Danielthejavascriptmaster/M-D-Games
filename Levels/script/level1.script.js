@@ -1,6 +1,8 @@
 import { addCoin } from "../../utils/add_coin.js";
 import { checkLevelCoin } from "../../utils/lvl_coin_verifier.js";
-
+import { business_income, business_risk } from "../../../../utils/business_income.js";
+business_risk()
+business_income()
 console.log(localStorage)
 
 const coin_label = document.getElementById("coin_label");

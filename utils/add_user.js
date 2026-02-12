@@ -23,11 +23,17 @@ export function add_user(username){
         income_bar_raise_high: 0,
         income_bar_value: 0,
         company_value: 0,
+        fail_chance: 0,
+        fail_messages:[],
+        fine_low: 0,
+        fine_high: 0,
     },
 
     achivements: {
         lazy_bum: false,
-        shop_unlocked: false
+        shop_unlocked: false,
+        theres_gulliable_written_on_the_ceiling: false,
+
     }
 } 
     localStorage.setItem("user", JSON.stringify(user_data)); // saved item

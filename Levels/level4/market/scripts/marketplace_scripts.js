@@ -5,10 +5,8 @@ const info_button = document.getElementById("info_button");
 const buy_btn_slot_1 = document.getElementById("buy_btn_slot_1");
 const buy_btn_slot_2 = document.getElementById("buy_btn_slot_2");
 const buy_btn_slot_3 = document.getElementById("buy_btn_slot_3");
-const business_test = document.getElementById("business_test");
 
 const sell_btn = document.getElementById("sell_btn");
-const inf_money_btn = document.getElementById("inf_money_btn");
 
 const soda_factory_cost = 30;
 const banana_plantation = 10;
@@ -33,6 +31,13 @@ buy_btn_slot_1.onclick = () => {
 
             data.business.income_bar_raise_low = 10;
             data.business.income_bar_raise_high = 20;
+
+            data.business.fine_low = 5;
+            data.business.fine_high = 10;
+
+            data.business.fail_chance = 0.15 //15% chance of failing
+
+            data.business.fail_messages = ["A Pepsi Max Can Blew Up", "Your Soda Caused Lead Poisining", "Titanium Cube Fell On You"]
 
             localStorage.setItem("user", JSON.stringify(data));
             window.alert(`${data.business.name} has been bought!`);
@@ -61,6 +66,13 @@ buy_btn_slot_2.onclick = () => {
             data.business.income_bar_raise_low = 10;
             data.business.income_bar_raise_high = 40;
 
+            data.business.fine_low = 2;
+            data.business.fine_high = 3;
+
+            data.business.fail_chance = 0.9 //5% fail rate
+
+            data.business.fail_messages = ["The Weather Report Lied", "Bananas Got Crushed", "You Slipped On A Banana"]
+
             localStorage.setItem("user", JSON.stringify(data));
             window.alert(`${data.business.name} has been bought!`);
             console.log(data);
@@ -77,7 +89,7 @@ buy_btn_slot_3.onclick = () => {
         if(data.coins >= crypto_trading_firm){
             data.coins -= crypto_trading_firm;
             data.business.company_owned = true;
-            data.business.name = "Soda Factory";
+            data.business.name = "Crypto Trading Firm";
             data.business.company_value = crypto_trading_firm;
             data.business.income_low = 55;
             data.business.income_high = 70;
@@ -87,6 +99,13 @@ buy_btn_slot_3.onclick = () => {
             data.business.income_bar_raise_low = 5;
             data.business.income_bar_raise_high = 10;
 
+
+            data.business.fine_low = 20;
+            data.business.fine_high = 80;
+
+            data.business.fail_chance = 0.35 //35% fail rate
+
+            data.business.fail_messages = ["Market Crashed", "You Misclicked", "Blackrock Threw U Under The Bus"]
             localStorage.setItem("user", JSON.stringify(data));
             window.alert(`${data.business.name} has been bought!`);
             console.log(data);
