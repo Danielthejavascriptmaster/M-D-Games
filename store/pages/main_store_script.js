@@ -7,6 +7,8 @@ const building_permit_buy_btn = document.getElementById("building_permit_buy_btn
 const iron_bar_buy_btn = document.getElementById("iron_bar_buy_btn");
 const chair_buy_btn = document.getElementById("chair_buy_btn");
 const coin_label = document.getElementById("coin_label");
+const sugar_buy_btn = document.getElementById("sugar_buy_btn");
+const carbonated_water_buy_btn = document.getElementById("carbonated_water_buy_btn");
 
 const water_price = 2;
 const green_card_price = 10;
@@ -14,6 +16,8 @@ const wires_price = 4;
 const building_permit_price = 8;
 const iron_bar_price = 4;
 const chair_price = 5;
+const sugar_buy_price = 10;
+const carbonated_water_price = 12;
 
 const brokie_text = "Get your money up not your funny up";
 const purchase_text = "Purchase Complete";
@@ -59,4 +63,10 @@ iron_bar_buy_btn.onclick = () => {
 
 chair_buy_btn.onclick = () => {
     buy_item(chair_price, "chair");
+}
+sugar_buy_btn.onclick = () => {
+    buy_item(sugar_buy_price, "sugar")
+}
+carbonated_water_buy_btn.onclick = () => {
+    buy_item(carbonated_water_price, "carbonated water")
 }
