@@ -69,7 +69,7 @@ buy_btn_slot_2.onclick = () => {
             data.business.fine_low = 2;
             data.business.fine_high = 3;
 
-            data.business.fail_chance = 0.9 //5% fail rate
+            data.business.fail_chance = 0.05 //5% fail rate
 
             data.business.fail_messages = ["The Weather Report Lied", "Bananas Got Crushed", "You Slipped On A Banana"]
 
