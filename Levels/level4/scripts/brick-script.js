@@ -8,3 +8,5 @@ let data = JSON.parse(localStorage.getItem("user"));
 check_inventory_btn.onclick = () => {
     inventory_label.innerHTML = `${data.inventory}`
 }
+
+coin_label.innerHTML = `coins: ${data.coins}`

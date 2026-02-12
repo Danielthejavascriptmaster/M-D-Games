@@ -1,4 +1,7 @@
 import { craft_item } from "../../../../utils/crafting_recipies.js";
+import { business_income, business_risk } from "../../../../utils/business_income.js";
+business_income()
+business_risk()
 
 const submit_btn = document.getElementById("submit");
 const check_inventory_btn = document.getElementById("check_inventory_btn");

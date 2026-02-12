@@ -1,6 +1,7 @@
 import { addCoin } from "../../../../utils/add_coin.js";
-import { business_income } from "../../../../utils/business_income.js";
+import { business_income, business_risk } from "../../../../utils/business_income.js";
 business_income()
+business_risk()
 const info_button = document.getElementById("info_button");
 const buy_btn_slot_1 = document.getElementById("buy_btn_slot_1");
 const buy_btn_slot_2 = document.getElementById("buy_btn_slot_2");
@@ -13,6 +14,8 @@ const banana_plantation = 10;
 const crypto_trading_firm = 60;
 
 let data = JSON.parse(localStorage.getItem("user"));
+const coin_label = document.getElementById("coin_label");
+coin_label.innerHTML = `coins: ${data.coins}`
 
 console.log(data)
 const brokie_text = "Get your money up not your funny up"
@@ -35,13 +38,14 @@ buy_btn_slot_1.onclick = () => {
             data.business.fine_low = 5;
             data.business.fine_high = 10;
 
-            data.business.fail_chance = 0.15 //15% chance of failing
+            data.business.fail_chance = 0.45//15% chance of failing
 
             data.business.fail_messages = ["A Pepsi Max Can Blew Up", "Your Soda Caused Lead Poisining", "Titanium Cube Fell On You"]
 
             localStorage.setItem("user", JSON.stringify(data));
             window.alert(`${data.business.name} has been bought!`);
             console.log(data);
+            window.location.reload()
         }else{
             window.alert(brokie_text);
         }
@@ -69,13 +73,14 @@ buy_btn_slot_2.onclick = () => {
             data.business.fine_low = 2;
             data.business.fine_high = 3;
 
-            data.business.fail_chance = 0.10 //5% fail rate
+            data.business.fail_chance = 0.25 //5% fail rate
 
             data.business.fail_messages = ["The Weather Report Lied", "Bananas Got Crushed", "You Slipped On A Banana"]
 
             localStorage.setItem("user", JSON.stringify(data));
             window.alert(`${data.business.name} has been bought!`);
             console.log(data);
+            window.location.reload()
         }else{
             window.alert(brokie_text);
         }
@@ -103,7 +108,7 @@ buy_btn_slot_3.onclick = () => {
             data.business.fine_low = 20;
             data.business.fine_high = 80;
 
-            data.business.fail_chance = 0.35 //35% fail rate
+            data.business.fail_chance = 0.55 //35% fail rate
 
             data.business.fail_messages = ["Market Crashed", "You Misclicked", "Blackrock Threw U Under The Bus"]
             localStorage.setItem("user", JSON.stringify(data));
@@ -143,6 +148,7 @@ sell_btn.onclick = () => {
 
         localStorage.setItem("user", JSON.stringify(data))
         console.log(data)
+        window.location.reload()
     }else if(data.business.company_owned == false){
         console.log("No business owned")
         window.alert("No business owned")

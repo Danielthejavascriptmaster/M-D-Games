@@ -18,3 +18,4 @@ window.alert("I gave you access to the shop, click the view button to return to 
 view_btn.onclick = () => {
     window.location.replace('/main_menu/html/MainMenu.html');
 }
+coin_label.innerHTML = `coins: ${data.coins}`

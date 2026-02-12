@@ -1,0 +1,7 @@
+.stat{
+    height: 100px;
+    width: 200px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+}
