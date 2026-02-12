@@ -27,13 +27,10 @@ export function business_income(){
 }
 
 export function business_risk(){
-    window.alert("running business risk function")
     let data = JSON.parse(localStorage.getItem("user"));
     if(data.business.company_owned == false){}
     else if(data.business.company_owned == true){
-        window.alert("user has a business")
         let business_fail_chance = data.business.fail_chance;
-        window.alert(`fail chance: ${business_fail_chance}`)
         if (Math.random() < business_fail_chance){
             let random_message_count = Math.floor(Math.random() * 3)
             let random_fine_rate = Math.ceil(Math.random() * (data.business.fine_high - data.business.fine_low) + data.business.fine_low);
