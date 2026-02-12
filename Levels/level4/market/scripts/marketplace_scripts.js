@@ -32,8 +32,8 @@ buy_btn_slot_1.onclick = () => {
 
             data.business.income_bar = 0;
 
-            data.business.income_bar_raise_low = 10;
-            data.business.income_bar_raise_high = 20;
+            data.business.income_bar_raise_low = 15;
+            data.business.income_bar_raise_high = 30;
 
             data.business.fine_low = 5;
             data.business.fine_high = 10;
@@ -101,12 +101,12 @@ buy_btn_slot_3.onclick = () => {
 
             data.business.income_bar = 0;
 
-            data.business.income_bar_raise_low = 5;
-            data.business.income_bar_raise_high = 10;
+            data.business.income_bar_raise_low = 20;
+            data.business.income_bar_raise_high = 40;
 
 
             data.business.fine_low = 20;
-            data.business.fine_high = 80;
+            data.business.fine_high = 60;
 
             data.business.fail_chance = 0.40 //35% fail rate
 
