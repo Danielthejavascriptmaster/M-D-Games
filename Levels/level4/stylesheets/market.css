@@ -4,18 +4,27 @@ body{
     justify-content: center;
     align-items: center;
     color: white;
+    background: url(https://wallpaperaccess.com/full/10796798.png) no-repeat;
+    background-size: cover;
 }
 
 .product{
-    background-color: rgb(111, 111, 111);
-    border-radius: 10px;
+    background-color: rgb(255, 253, 253);
+    border-radius: 30px;
     padding: 30px;
     position: relative;
     width: 900px;
     font-size: 20px;
     align-items: center;
     justify-content: center;
-    backdrop-filter: blur(10px);
+    
+    background-color: rgba(255, 255, 255, 0.501);
+
+    
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+
+
 }
 
 #slot_1,
@@ -25,7 +34,14 @@ body{
     padding: 20px;
     border-radius: 15px;  
     margin-bottom: 20px;
-    transition: transform 0.5s ease;
+    transition: transform 0.4s ease-in;
+    background: linear-gradient(
+    to bottom,
+    rgba(255, 140, 0, 0.6) 0%,     
+    rgba(255, 94, 98, 0.5) 40%,   
+    rgba(131, 58, 180, 0.4) 75%,   
+    rgba(0, 0, 0, 0.6) 110%        
+);
 }
 
 #slot_1:hover,
@@ -47,6 +63,8 @@ box-shadow:  0 0 20px black;
     font-size: 14px;
     opacity: 0.8;
     margin-bottom: 10px;
+    font-size: 18px;
+    color: black;
 }
 
 #price_label{
@@ -56,7 +74,58 @@ box-shadow:  0 0 20px black;
 }
 
 #info_button{
-    background: #293829;
+    background: #10b5da;
     color: rgb(255, 255, 255);
     margin-right: 10px;
+    border-radius: 8px;
+}
+
+#sell_btn{
+    border-radius: 8px;
+    background: red;
+    color: white;
+    font-weight: bold;
+}
+
+#backBtn {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+
+.product button{
+    color: rgb(0, 0, 0);
+    border-radius: 9px;
+    font-size: 20px;
+}
+
+
+
+#coin_label {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: #ffffff;
+    color: black;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    z-index: 1000;
+}
+
+
+
+#coin {
+    position: fixed;
+    top: 36px;
+    left: 10px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    z-index: 1000;
 }
