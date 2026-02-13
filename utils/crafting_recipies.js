@@ -2,15 +2,44 @@ let total_recipies = 2;
 let crafting_recipies = [
     {
         ingredients: ["carbonated water", "sugar"],
-        output: "Pepsi Max",
+        output: "pepsi max",
     },
     {
         ingredients: ["wires", "water"],
         output: "Infinite coin generator"
     },
     {
-
-    }
+        ingredients: ["wires", "water"],
+        output: "electricity"
+    },
+    {
+        ingredients: ["electricity", "iron bar"],
+        output: "taser"
+    },
+    {
+        ingredients: ["water", "chair"],
+        output: "wet chair",
+    }, 
+    {
+        ingredients: ["wet chair", "electricity"],
+        output: "electric chair trap",
+    },
+    {
+        ingredients: ["wires", "iron bar"],
+        output: "robot",
+    },
+    {
+        ingredients: ["robot", "pepsi max"],
+        output: "stronger robot",
+    },
+    {
+        ingredients: ["robot", "iron bar"],
+        output: "darker robot",
+    },
+    {
+        ingredients: ["stronger robot", "darker robot"],
+        output: "the strongest darkest robot",
+    },
 ]
 
 export function craft_item(ingredient_1, ingredient_2){

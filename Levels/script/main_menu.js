@@ -3,8 +3,6 @@ import { check_shop } from "../../utils/check_shop_perm.js"
 
 let developer_debug_button = document.getElementById("credit_label");
 const shop_btn = document.getElementById("shop_btn");
-const start_btn = document.getElementById("start_btn");
-const setting_btn = document.getElementById("setting_btn");
 
 window.onload = () => {
     setTimeout(() => {

@@ -11,14 +11,14 @@ const pepsi_max_crafting_recepie = document.getElementById("pepsi_max_crafting_r
 pepsi_max_crafting_recepie.onclick = () => {
     window.alert(` 
         PEPSI MAX
-        - Carbonated Water 
-        - Sugar
+        1 - carbonated water 
+        2 - sugar
         `)
 }
 inf_money_recepie.onclick = () => {
     window.alert(`
         Infinite Money Generator
-        - Wires
-        - Water
+        1 - wires
+        2 - water
         `)
 }
