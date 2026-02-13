@@ -35,10 +35,10 @@ buy_btn_slot_1.onclick = () => {
             data.business.income_bar_raise_low = 15;
             data.business.income_bar_raise_high = 30;
 
-            data.business.fine_low = 5;
-            data.business.fine_high = 10;
+            data.business.fine_low = 1;
+            data.business.fine_high = 40;
 
-            data.business.fail_chance = 0.35//15% chance of failing
+            data.business.fail_chance = 0.20//15% chance of failing
 
             data.business.fail_messages = ["A Pepsi Max Can Blew Up", "Your Soda Caused Lead Poisining", "Titanium Cube Fell On You"]
 
