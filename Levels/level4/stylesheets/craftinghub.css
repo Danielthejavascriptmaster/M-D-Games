@@ -13,8 +13,10 @@ body{
 }
 
 .product{
+   
     display: flex;
     flex-direction: column;
+    grid-template-columns: repeat(4, 1fr);
      background-color: rgba(40, 35, 30, 0.1);
 
     
@@ -47,7 +49,7 @@ body{
 }
 
 button{
-     padding: 10px 20px;
+    padding: 10px 20px;
     margin: 10px;
     border: none;
     border-radius: 8px;
@@ -82,5 +84,8 @@ label {
 }
 
 
-
+.button_row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 
