@@ -1,12 +1,8 @@
-let total_recipies = 2;
+let total_recipies = 9;
 let crafting_recipies = [
     {
         ingredients: ["carbonated water", "sugar"],
         output: "pepsi max",
-    },
-    {
-        ingredients: ["wires", "water"],
-        output: "Infinite coin generator"
     },
     {
         ingredients: ["wires", "water"],
