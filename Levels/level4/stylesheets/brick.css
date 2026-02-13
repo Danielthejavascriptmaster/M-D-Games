@@ -1,50 +1,38 @@
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: url(https://i.pinimg.com/originals/52/9c/49/529c49e9164d33dd37bdc658d9a807f5.gif) no-repeat;
+    background: url(/assets/pixelated\ japanese\ house\ by\ the\ forest\ background.gif)  ;
     background-size: cover;
-}
-
-
-.container{
-    display: flex;
-    flex-direction: column;
-    width: 470px;
-    align-items: center;
-    justify-content: center;
-    margin-left: 40px;
-    margin-top: 140px;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
     
 }
 
 
-.container button{
-    font-size: 60px;
-    width: 400px;
-    border-radius: 10px;
-    margin: 25px;
-    transition: 0.4s;
-    background-color: rgba(255, 255, 255, 0.501);
-
-    
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-
-   
-    border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+#coin_label {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: #ffffff;
+    color: black;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    z-index: 1000;
 }
 
-#city{
-    font-size: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 70px;
-    color: white;
-    text-shadow: 2px 3px 3px black;
-    
+
+
+#coin {
+    position: fixed;
+    top: 36px;
+    left: 10px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    z-index: 1000;
 }
 
 
