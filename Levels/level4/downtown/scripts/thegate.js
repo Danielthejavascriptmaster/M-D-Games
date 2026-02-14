@@ -3,6 +3,7 @@ const check_inventory_btn = document.getElementById("check_inventory_btn");
 let inventory_label = document.getElementById("inventory_label");
 let data = JSON.parse(localStorage.getItem("user"));
 
+window.alert("The guard looks thirsty")
 check_inventory_btn.onclick = () => {
     inventory_label.innerHTML = `${data.inventory}`
 }
@@ -13,6 +14,8 @@ submit_btn.onclick = () => {
     if(data.inventory.includes(item_1)){
         window.alert("user has item")
         if(item_1 == "pepsi max"){
+            data.inventory = data.inventory.filter(item => item !== item_1);
+            localStorage.setItem("user", JSON.stringify(data));
             window.alert("Redircting to levle 5")
         }
         else if(item_1 == "water"){

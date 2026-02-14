@@ -11,6 +11,8 @@ export function add_user(username){
     lvl2: false,
     lvl3: false,
 
+    lvl3pt2_speech: false,
+
     inventory: [],
 
     business: {

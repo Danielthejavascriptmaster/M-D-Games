@@ -1,0 +1,50 @@
+(Verse 1)
+I was stuck in CSS, margins all wrong,
+Padding 12px? Why my div so long?
+Naming classes like a caveman’s cry,
+.card-wrapper-main-final-v2 why??
+
+Then Tailwind pulled up like “bro, relax,”
+p-4, flex, now I’m back on track,
+No more hunting styles in a dusty file,
+I style in my HTML, took me half a while 💨
+
+(Chorus)
+Tailwind is the way, yeah we ridin’ that breeze 🌬️
+Utility drip, got my layout on freeze 🧊
+From idea to UI in a blink of an eye,
+Why fight with CSS when the wind’s on your side?
+
+Tailwind is the way, yeah the future’s right here 🚀
+No messy class names, no spacing fear
+Ship it fast, keep it clean, let the divs obey,
+Say it loud with me now: TAILWIND IS THE WAY 😤
+
+(Verse 2)
+I don’t write stylesheets, I write intentions,
+justify-between, instant dimensions,
+Consistent scale, yeah the UI tight,
+No more random pixels ruining my night 🌙
+
+They say “too many classes,” I say “nah,”
+That’s just CSS but you can read it raw,
+I see my layout just by reading the line,
+HTML so honest it be snitchin’ on design 🕵️‍♂️
+
+(Bridge)
+Headwind? Nah.
+Debug? Rare.
+Tailwind got me shipping with aerodynamic flair ✈️
+No more “why is this broken” despair,
+My divs behave like they actually care 😌
+
+(Final Chorus)
+Tailwind is the way, yeah we ridin’ that breeze 🌬️
+From noob to builder in like two weeks
+Learn CSS while you build, that’s the play,
+Not “someday soon” — nah, TODAY
+
+Tailwind is the way, say it with pride 😎
+Flex on the layout, let the spacing decide
+From small lil’ buttons to a full app display,
+One wind, one truth: TAILWIND IS THE WAY 🧭
