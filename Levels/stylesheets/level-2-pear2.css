@@ -1,6 +1,61 @@
 body{
-    background: darkcyan; /*Background color can be anything*/
+    display: flex;
+    position: relative;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
 }
+
+
+
+#coin_label {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: #ffffff;
+    color: black;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    z-index: 1000;
+}
+
+
+#coin {
+    position: fixed;
+    top: 36px;
+    left: 10px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    z-index: 1000;
+}
+
+
 #code_label{
-    color: darkcyan;/*make sure this mathes background color*/
+    position: absolute;
+    top: 600px;
+    left:700px;
+    color: aquamarine;
+}
+
+#backBtn{
+   
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+
+#main_label{
+    color: black;
+    text-shadow: 0px 1px 1px rgb(108, 108, 108);
+    font-size: 40px;
+    justify-content: center;
+    margin-top: 40px;
 }
