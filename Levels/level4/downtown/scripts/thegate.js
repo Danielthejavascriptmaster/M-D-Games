@@ -13,6 +13,8 @@ submit_btn.onclick = () => {
     if(data.inventory.includes(item_1)){
         window.alert("user has item")
         if(item_1 == "pepsi max"){
+            data.inventory = data.inventory.filter(item => item !== item_1);
+            localStorage.setItem("user", JSON.stringify(data));
             window.alert("Redircting to levle 5")
         }
         else if(item_1 == "water"){
