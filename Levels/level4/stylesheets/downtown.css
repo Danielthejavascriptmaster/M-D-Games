@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(108, 216, 0);
+}
+
+
+.button_row{
+    gap: 10px;
+}
+
+
+button{
+    border-radius: 10px;
+    font-size: 40px;
+    margin: 10px;
+    position: relative;
+    top: 40px;
+    left: 40px;
+    margin: 10px;
+}
+
+
+
+
