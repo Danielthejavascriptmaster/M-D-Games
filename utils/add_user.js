@@ -10,6 +10,7 @@ export function add_user(username){
     lvl1: false,
     lvl2: false,
     lvl3: false,
+    lvl4: false,
 
     lvl3pt2_speech: false,
 
