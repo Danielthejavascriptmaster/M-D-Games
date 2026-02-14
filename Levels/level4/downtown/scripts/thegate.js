@@ -3,6 +3,7 @@ const check_inventory_btn = document.getElementById("check_inventory_btn");
 let inventory_label = document.getElementById("inventory_label");
 let data = JSON.parse(localStorage.getItem("user"));
 
+window.alert("The guard looks thirsty")
 check_inventory_btn.onclick = () => {
     inventory_label.innerHTML = `${data.inventory}`
 }
