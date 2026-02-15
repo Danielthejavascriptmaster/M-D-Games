@@ -28,17 +28,17 @@ buy_btn_slot_1.onclick = () => {
             data.business.name = "Soda Factory";
             data.business.company_value = soda_factory_cost;
             data.business.income_low = 10;
-            data.business.income_high = 15;
+            data.business.income_high = 25;
 
             data.business.income_bar = 0;
 
             data.business.income_bar_raise_low = 15;
             data.business.income_bar_raise_high = 35;
 
-            data.business.fine_low = 20;
-            data.business.fine_high = 40;
+            data.business.fine_low = 10;
+            data.business.fine_high = 30;
 
-            data.business.fail_chance = 0.15//15% chance of failing
+            data.business.fail_chance = 0.1//10% chance of failing
 
             data.business.fail_messages = ["A Pepsi Max Can Blew Up", "Your Soda Caused Lead Poisining", "Titanium Cube Fell On You"]
 
@@ -96,8 +96,8 @@ buy_btn_slot_3.onclick = () => {
             data.business.company_owned = true;
             data.business.name = "Crypto Trading Firm";
             data.business.company_value = crypto_trading_firm;
-            data.business.income_low = 55;
-            data.business.income_high = 70;
+            data.business.income_low = 25;
+            data.business.income_high = 65;
 
             data.business.income_bar = 0;
 
@@ -105,10 +105,10 @@ buy_btn_slot_3.onclick = () => {
             data.business.income_bar_raise_high = 40;
 
 
-            data.business.fine_low = 20;
-            data.business.fine_high = 80;
+            data.business.fine_low = 50;
+            data.business.fine_high = 120;
 
-            data.business.fail_chance = 0.10 //10% fail rate
+            data.business.fail_chance = 0.09 //10% fail rate
 
             data.business.fail_messages = ["Market Crashed", "You Misclicked", "Blackrock Threw U Under The Bus"]
             localStorage.setItem("user", JSON.stringify(data));

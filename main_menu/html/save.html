@@ -3,20 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>save</title>
     <link rel="stylesheet" href="/main_menu/settings.css">
 </head>
 <body>
-    <label class="mainlabel" for="">Settings</label>
-    <label id="musiclabel" for="music">Music</label>
+    <label class="mainlabel" for="">Save</label>
 
-    <div class="music">
-        <audio controls>
-            <source src="/music/dl.mp3">
-        </audio>
-    </div>
 
-    <script type="module">
+    <button id="level_5_btn">
+        level 5
+    </button>
+    <script type="module" src="/Levels/script/save_script.js">
         import { business_income } from "../../../../utils/business_income.js";
         business_income()
     </script>

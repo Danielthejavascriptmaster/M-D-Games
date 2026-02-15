@@ -37,6 +37,10 @@ export function add_user(username){
         shop_unlocked: false,
         theres_gulliable_written_on_the_ceiling: false,
 
+    },
+
+    save_levels: {
+        level_5: false
     }
 } 
     localStorage.setItem("user", JSON.stringify(user_data)); // saved item
