@@ -33,12 +33,12 @@ buy_btn_slot_1.onclick = () => {
             data.business.income_bar = 0;
 
             data.business.income_bar_raise_low = 15;
-            data.business.income_bar_raise_high = 30;
+            data.business.income_bar_raise_high = 35;
 
-            data.business.fine_low = 1;
+            data.business.fine_low = 20;
             data.business.fine_high = 40;
 
-            data.business.fail_chance = 0.20//15% chance of failing
+            data.business.fail_chance = 0.15//15% chance of failing
 
             data.business.fail_messages = ["A Pepsi Max Can Blew Up", "Your Soda Caused Lead Poisining", "Titanium Cube Fell On You"]
 
@@ -70,7 +70,7 @@ buy_btn_slot_2.onclick = () => {
             data.business.income_bar_raise_low = 10;
             data.business.income_bar_raise_high = 40;
 
-            data.business.fine_low = 2;
+            data.business.fine_low = 1;
             data.business.fine_high = 3;
 
             data.business.fail_chance = 0.25 //5% fail rate
@@ -106,9 +106,9 @@ buy_btn_slot_3.onclick = () => {
 
 
             data.business.fine_low = 20;
-            data.business.fine_high = 60;
+            data.business.fine_high = 80;
 
-            data.business.fail_chance = 0.40 //35% fail rate
+            data.business.fail_chance = 0.10 //10% fail rate
 
             data.business.fail_messages = ["Market Crashed", "You Misclicked", "Blackrock Threw U Under The Bus"]
             localStorage.setItem("user", JSON.stringify(data));
