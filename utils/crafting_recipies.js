@@ -26,15 +26,15 @@ let crafting_recipies = [
     },
     {
         ingredients: ["robot", "pepsi max"],
-        output: "stronger robot",
+        output: "strongest robot",
     },
     {
         ingredients: ["robot", "iron bar"],
-        output: "darker robot",
+        output: "dark robot",
     },
     {
-        ingredients: ["stronger robot", "darker robot"],
-        output: "the strongest darkest robot",
+        ingredients: ["robot", "electricity"],
+        output: "electro robot",
     },
 ]
 
