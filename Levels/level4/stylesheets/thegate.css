@@ -2,6 +2,17 @@ body{
      background: url("https://media.pxlart.com/5050b240-pixel-art-crystalline-cave-glowing-geodes-underground-compressed.jpg") no-repeat;
      background-size: cover;
      background-position: center;
+     display: flex;
 
 }
 
+input{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 40px;
+     border-radius: 10px;
+     border: none;
+}
+
+button
