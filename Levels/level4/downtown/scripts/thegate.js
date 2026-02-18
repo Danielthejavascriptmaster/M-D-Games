@@ -1,6 +1,6 @@
+import { addCoin } from "../../utils/add_coin.js";
+import { checkLevelCoin } from "../../utils/lvl_coin_verifier.js";
 import { business_income, business_risk } from "../../../../utils/business_income.js";
-import { addCoin } from "../../../utils/add_coin.js";
-import { checkLevelCoin } from "../../../utils/lvl_coin_verifier.js";
 business_income()
 business_risk()
 
