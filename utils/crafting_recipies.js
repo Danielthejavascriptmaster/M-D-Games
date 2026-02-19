@@ -40,7 +40,7 @@ let crafting_recipies = [
 
 export function craft_item(ingredient_1, ingredient_2){
     let data = JSON.parse(localStorage.getItem("user"));
-    let inventory = data.inventory
+    let inventory = data.inventory;
 
 
     for (let item_number = 0; item_number < total_recipies; item_number++) {
