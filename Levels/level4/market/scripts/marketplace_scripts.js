@@ -1,4 +1,3 @@
-import { addCoin } from "../../../../utils/add_coin.js";
 import { business_income, business_risk } from "../../../../utils/business_income.js";
 business_income()
 business_risk()
@@ -73,7 +72,7 @@ buy_btn_slot_2.onclick = () => {
             data.business.fine_low = 1;
             data.business.fine_high = 3;
 
-            data.business.fail_chance = 0.25 //5% fail rate
+            data.business.fail_chance = 0.25 //25% fail rate
 
             data.business.fail_messages = ["The Weather Report Lied", "Bananas Got Crushed", "You Slipped On A Banana"]
 
