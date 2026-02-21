@@ -18,7 +18,6 @@ submit_btn.onclick = () => {
     const item_1 = document.getElementById("item_1").value;
 
     if(data.inventory.includes(item_1)){
-        window.alert("user has item")
         if(item_1 == "pepsi max"){
             data.inventory = data.inventory.filter(item => item !== item_1);
             localStorage.setItem("user", JSON.stringify(data));
