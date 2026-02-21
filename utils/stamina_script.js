@@ -1,29 +1,25 @@
 export function stamina_checker(){
     let data = JSON.parse(localStorage.getItem("user"));
-    let user_stamina = data.stamina;
-    let user_inventory = data.inventory;
+    let random_stamina_usage = Math.ceil(Math.random() * (15 - 5) + 5);
+    let inventory = data.inventory;
 
-    let random_energy_use = Math.ceil(Math.random() * (30 - 10) + 10);
-    user_stamina -= random_energy_use;
-    localStorage.setItem("user", JSON.stringify(data));
+    data.stamina -= random_stamina_usage;
+    localStorage.setItem("user", JSON.stringify(data))
 
-
-    if (user_stamina <= 0){
-        window.alert("Stamina has ran out")
-        if(user_inventory.includes("chair")){
-            window.alert("Using chair to rest")
+    if(data.stamina <= 0){
+        window.alert("stamina ran out")
+        if(inventory.includes("chair")){
+            window.alert("using chair")
             data.inventory = data.inventory.filter(item => item !== "chair");
+            data.stamina = 100
+            localStorage.setItem("user", JSON.stringify(data))
+        }else{
+            window.alert("user doesnt have a chair")
+            let random_fine = Math.ceil(Math.random() * (15 - 5) + 5);
+            data.stamina = 50
+            data.coins -= random_fine
             localStorage.setItem("user", JSON.stringify(data))
 
         }
-        else{
-            window.alert("You got too tired and with no where to rest you shattered your ankle")
-            let random_fine_rate = Math.ceil(Math.random() * (15 - 2) + 2);
-            data.coins -= random_fine_rate
-            localStorage.setItem("user", JSON.stringify(data))
-        }
     }
-    else if(user_stamina > 0){
-        window.alert("your not tired yet")
-    }
-};
+}

@@ -2,7 +2,7 @@ export function add_user(username){
     let user_data = {
     storage_username: username,
     coins: 60, 
-    shop_unlocked: false,
+    shop_unlocked: true,
     stamina: 100,
 
     //LEVELS COIN COLLECTOR
@@ -40,7 +40,7 @@ export function add_user(username){
     },
 
     save_levels: {
-        level_5: false
+        level_5: true
     }
 } 
     localStorage.setItem("user", JSON.stringify(user_data)); // saved item
