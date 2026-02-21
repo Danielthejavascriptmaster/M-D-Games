@@ -34,8 +34,8 @@ buy_btn_slot_1.onclick = () => {
             data.business.income_bar_raise_low = 15;
             data.business.income_bar_raise_high = 35;
 
-            data.business.fine_low = 10;
-            data.business.fine_high = 30;
+            data.business.fine_low = 15;
+            data.business.fine_high = 40;
 
             data.business.fail_chance = 0.1//10% chance of failing
 
@@ -104,10 +104,10 @@ buy_btn_slot_3.onclick = () => {
             data.business.income_bar_raise_high = 40;
 
 
-            data.business.fine_low = 50;
-            data.business.fine_high = 120;
+            data.business.fine_low = 70;
+            data.business.fine_high = 170;
 
-            data.business.fail_chance = 0.09 //10% fail rate
+            data.business.fail_chance = 0.07 //7% fail rate
 
             data.business.fail_messages = ["Market Crashed", "You Misclicked", "Blackrock Threw U Under The Bus"]
             localStorage.setItem("user", JSON.stringify(data));

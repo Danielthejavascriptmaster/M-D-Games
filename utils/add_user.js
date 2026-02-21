@@ -1,7 +1,7 @@
 export function add_user(username){
     let user_data = {
     storage_username: username,
-    coins: 0, 
+    coins: 60, 
     shop_unlocked: false,
     stamina: 100,
 
