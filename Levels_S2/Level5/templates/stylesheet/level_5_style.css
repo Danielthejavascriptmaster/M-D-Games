@@ -1,0 +1,11 @@
+#stat-container{
+    padding: 10px;
+    height: 60px;
+    width: 150px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+}
+.stat-label{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
