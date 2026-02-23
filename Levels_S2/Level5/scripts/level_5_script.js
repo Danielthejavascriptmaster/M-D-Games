@@ -4,6 +4,7 @@ business_income()
 business_risk()
 stamina_checker()
 
+window.alert("Hey, looks like you have made it to the 5th level, im happy that u made it this far. unfortunately there is no more content in the game left, the devs will hopefully update soon")
 let coin_stat = document.getElementById("coin-stat-label");
 let inventory_stat = document.getElementById("inventory-stat-label");
 let stamina_stat = document.getElementById("stamina-stat-label");

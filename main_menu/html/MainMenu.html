@@ -1,45 +1,46 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Main-menu</title>
-    <link rel="stylesheet" href="/main_menu/menu.css">
-</head>
-<body>
+    <link rel="stylesheet" href="/main_menu/menu.css" />
+  </head>
+  <body>
     <style>
-        .menu_spacing{
-            height: 10px;
-        }
-        .version_gap{
-            height: 10px;
-        }
+      .menu_spacing {
+        height: 10px;
+      }
+      .version_gap {
+        height: 10px;
+      }
     </style>
     <div class="menu">
-        <label class="text" id="menu_label">Menu</label>
-        <div class="menu_spacing"></div>
-        <div class="text" id="credit_label">Epstein Games</div>
+      <label class="text" id="menu_label">Menu</label>
+      <div class="menu_spacing"></div>
+      <div class="text" id="credit_label">Omib Games</div>
 
-        <div class="button-container">
-            <a href="/Levels/level-1.html">
-                <button id="start_btn">Start</button>
-            </a>
-            <a href="save.html">
-                <button id="setting_btn">Save</button>
-            </a>
-            <a id="shop_btn">
-                <button>Shop</button>
-            </a>
-        </div>
+      <div class="button-container">
+        <a href="/Levels/level-1.html">
+          <button id="start_btn">Start</button>
+        </a>
+        <a href="save.html">
+          <button id="setting_btn">Save</button>
+        </a>
+        <a id="shop_btn">
+          <button>Shop</button>
+        </a>
+      </div>
 
-        <div class="version_gap"></div>
-            <a href="/Levels/extra/admin/admin_dashboard.html" id="version_label">Version: BETA</a>
-        </div>
+      <div class="version_gap"></div>
+      <a href="/Levels/extra/versions.html" id="version_label"
+        >Version: 1.0 (BETA sort of)</a
+      >
+    </div>
 
-        <script type="module" src="/Levels/script/main_menu.js">
-            import { business_income } from "../../../../utils/business_income.js";
-            business_income()
-        </script>
-</body>
+    <script type="module" src="/Levels/script/main_menu.js">
+      import { business_income } from "../../../../utils/business_income.js";
+      business_income()
+    </script>
+  </body>
 </html>
