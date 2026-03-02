@@ -1,0 +1,1 @@
+location.replace('/main_menu/html/MainMenu.html')
