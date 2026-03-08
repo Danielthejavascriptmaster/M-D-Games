@@ -1,1 +1,1 @@
-location.replace('/main_menu/html/MainMenu.html')
+window.location.replace('/main_menu/html/MainMenu.html')
